@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+
+# Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
+
+description: "My eval"
+
+prompts:
+  - "Answer the following question: {{question}}"
+  - "Answer the following question. This is very important to my career!: {{question}}"
+  - "You are an Astronomy expert. Answer the following question: {{question}}"
+  - "Answer the following question. Let's think step by step: {{question}}"
+
+providers:
+  - id: "openai:chat:gpt-4"
+    config:
+      temperature: 1.0
+      max_tokens: 1000
+      apiKeyEnvar: OPENAI_API_KEY
+
+tests:
+  - vars:
+      question: "what is type-Ia supernova?"
+
+    # assert:
+    #   - type: contains
+    #     value: (A)
