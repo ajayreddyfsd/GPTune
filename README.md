@@ -1,6 +1,6 @@
 # GPTune
 
-This project investigates how emotional stimuli, persona-based prompts, and zero-shot prompting affect the quality of GPT responses. By comparing these advanced prompting techniques with a basic prompt, we aim to uncover how emotional context, personality traits, and task-specific cues influence AI's behavior and answer depth.
+This project investigates how emotional stimuli, persona-based prompts, and zero-shot prompting affect the quality of GPT responses using **PROMPTFOO**. By comparing these advanced prompting techniques with a basic prompt, we aim to uncover how emotional context, personality traits, and task-specific cues influence AI's behavior and answer depth.
 
 ## How It Works
 1. Three types of prompts are tested:
