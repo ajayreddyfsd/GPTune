@@ -1,23 +1,25 @@
-# GPTip: Does Tipping Improve GPT Responses?
+# GPTune
 
-This project investigates the effect of tip amounts on the quality and clarity of GPT responses. Through a series of tests using **promptfoo**, I compared responses with different tip amounts to see if higher tips lead to better AI answers.
+This project investigates how emotional stimuli, persona-based prompts, and zero-shot prompting affect the quality of GPT responses. By comparing these advanced prompting techniques with a basic prompt, we aim to uncover how emotional context, personality traits, and task-specific cues influence AI's behavior and answer depth.
 
 ## Features
-- Compare GPT's performance with and without tips in the prompt.
-- Simple experimentation setup using **promptfoo**.
-- Explore how tipping influences GPT's "thinking" and response depth.
+- Compare responses with emotional, persona-driven, and zero-shot prompts.
+- Analyze GPT's engagement, empathy, and task handling.
+- Contrast these results with a simple, neutral prompt.
 
 ## How It Works
-1. Run prompts with varying tip amounts (or no tip at all).
-2. Analyze the responses for clarity, depth, and relevance.
-3. Draw conclusions on whether higher tips lead to better results.
+1. Three types of prompts are tested:
+   - **Emotional Stimuli:** Prompts designed to trigger empathy or context-aware responses.
+   - **Persona-based Prompts:** Requests that influence the AI to respond in a specific tone or personality.
+   - **Zero-shot Prompts:** Prompts where GPT is expected to perform a task with no prior example.
+2. The quality, relevance, and clarity of responses are analyzed across these prompts.
+3. The project seeks to determine how these advanced prompting methods compare to basic, neutral prompts.
 
 ## Why It Matters
-This experiment helps refine prompt engineering strategies and could improve your approach to working with AI.
+Understanding how different prompts influence GPT's responses can improve interactions with AI in applications that require empathy, context, or task-specific knowledge. This experiment also highlights how zero-shot prompting can enhance AI's adaptability.
 
-## conclusion
-The experiment demonstrates that higher tip amounts improve GPT's responses, making them more detailed, clear, and thoughtful. Lower tips result in more basic and not so understandable answers. This highlights the potential for prompt engineering to optimize AI output based on tip settings.
+## Conclusion
+By analyzing various types of prompts, we see that emotional and persona-based inputs lead to richer, more contextually relevant responses, while zero-shot prompts showcase GPT’s ability to handle tasks without prior examples. This helps refine the use of AI in real-world applications requiring nuanced interaction and problem-solving.
 
-![Output1](https://github.com/user-attachments/assets/3e369ef8-bde3-46e7-b3b3-3f99316b79a2)
+![Output](https://github.com/user-attachments/assets/e1167b0e-67f7-4b04-bd6e-52b36ac29a0d)
 
-![Output2](https://github.com/user-attachments/assets/8da49456-7be8-4707-9c1d-ce8f8d7b66b1)
