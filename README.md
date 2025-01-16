@@ -2,11 +2,6 @@
 
 This project investigates how emotional stimuli, persona-based prompts, and zero-shot prompting affect the quality of GPT responses. By comparing these advanced prompting techniques with a basic prompt, we aim to uncover how emotional context, personality traits, and task-specific cues influence AI's behavior and answer depth.
 
-## Features
-- Compare responses with emotional, persona-driven, and zero-shot prompts.
-- Analyze GPT's engagement, empathy, and task handling.
-- Contrast these results with a simple, neutral prompt.
-
 ## How It Works
 1. Three types of prompts are tested:
    - **Emotional Stimuli:** Prompts designed to trigger empathy or context-aware responses.
