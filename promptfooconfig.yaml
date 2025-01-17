@@ -21,6 +21,7 @@ tests:
   - vars:
       question: "what is type-Ia supernova?"
 
+#following is for code based evaluation instead human evaluation
     # assert:
     #   - type: contains
     #     value: (A)
