@@ -21,6 +21,8 @@ tests:
   - vars:
       question: "Which of the following best describes the process that leads to a Type II supernova, and how does it differ from a Type Ia supernova? (A) A Type II supernova occurs when a white dwarf accumulates matter from a companion star, exceeding the Chandrasekhar limit, whereas a Type Ia supernova occurs when a massive star runs out of nuclear fuel and collapses under its own gravity. (B) A Type II supernova occurs when a massive star (typically greater than 8 solar masses) undergoes a core collapse due to the exhaustion of nuclear fuel, while a Type Ia supernova occurs when a white dwarf in a binary system accretes matter from its companion star, eventually leading to a thermonuclear explosion. (C) A Type II supernova is the result of a merger of two neutron stars, while a Type Ia supernova is caused by the accretion of material onto a massive star from a companion. (D) A Type II supernova occurs when a star explodes due to magnetic field instability, whereas a Type Ia supernova is caused by the collapse of a red giant star into a black hole."
 
+
+#this is the code block to use if u want an LLM to judge/rate, self/other LLM responses
     assert:
       - type: llm-rubric #this is the mode used to set llm as a judge
         value: Identifies the answer as (B) #the judge needs to identify this in the outputs
